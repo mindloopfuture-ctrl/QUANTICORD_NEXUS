@@ -1,0 +1,17 @@
+{
+  "name": "pic-synchronization-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server_PIC_core.js",
+  "scripts": {
+    "start": "node server_PIC_core.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5",
+    "@solana/web3.js": "^1.91.7",
+    "axios": "^1.6.8"
+  }
+}
