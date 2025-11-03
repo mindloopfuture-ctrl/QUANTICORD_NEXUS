@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+:root {
+  --bg: radial-gradient(circle at center, #020617, #0f172a, #000);
+  --accent: #38bdf8;
+  --glow: 0 0 10px #38bdf8, 0 0 25px #7dd3fc;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+  overflow:hidden;
+  background:var(--bg);
+  color:#fff;
+  font-family:'Orbitron',sans-serif;
+  text-align:center;
+}
+
+#portal{
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:1;
+}
+
+.title{
+  font-size:3.3em;
+  text-shadow:var(--glow);
+  animation:pulse 3s infinite;
+}
+
+.subtitle{
+  color:#cbd5e1;
+  margin-bottom:20px;
+}
+
+button{
+  background:none;
+  border:2px solid var(--accent);
+  color:#fff;
+  padding:12px 30px;
+  border-radius:30px;
+  cursor:pointer;
+  font-size:1em;
+  transition:0.3s;
+}
+button:hover{
+  box-shadow:var(--glow);
+  background:rgba(56,189,248,0.1);
+}
+
+#status{
+  margin-top:20px;
+  font-size:1.1em;
+  color:#7dd3fc;
+  text-shadow:var(--glow);
+}
+
+canvas{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:0;
+}
+
+footer{
+  position:absolute;
+  bottom:10px;
+  width:100%;
+  font-size:0.8em;
+  color:#94a3b8;
+}
+
+@keyframes pulse{
+  0%,100%{text-shadow:0 0 10px #38bdf8;}
+  50%{text-shadow:0 0 25px #7dd3fc,0 0 50px #38bdf8;}
+}
