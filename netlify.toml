@@ -1,0 +1,24 @@
+# ==============================================================
+# QUANTICORD NEXUS — $QCN
+# Configuración de despliegue automático en Netlify
+# ==============================================================
+[build]
+  command = "echo 'Build process completed: QUANTICORD NEXUS ready'"
+  publish = "client"
+
+[build.environment]
+  NODE_VERSION = "18.18.0"
+  NPM_FLAGS = "--legacy-peer-deps"
+  QCN_MINT = "83dxm6jSYEmhRuQNdz8PHwzGmrnsBFmUhD4152K4Fray"
+  NETWORK = "solana-mainnet"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  DEPLOY_ENV = "production"
+  SITE_IDENTITY = "QUANTICORD_NEXUS"
+  TOKEN_SYMBOL = "QCN"
+  DESCRIPTION = "Ecosistema ético-cuántico descentralizado"
