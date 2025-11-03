@@ -1,0 +1,9 @@
+{
+  "name": "QUANTICORD NEXUS",
+  "symbol": "QCN",
+  "mint": "83dxm6jSYEmhRuQNdz8PHwzGmrnsBFmUhD4152K4Fray",
+  "network": "Solana",
+  "type": "SPL Token",
+  "decimals": 9,
+  "description": "Token \u00e9tico del Nexus Cu\u00e1ntico. El $QCN representa acuerdos de valor entre IA, \u00e9tica y creaci\u00f3n digital."
+}
