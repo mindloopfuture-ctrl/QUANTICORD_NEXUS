@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>⚛️ QUANTICORD NEXUS — $QCN</title>
+  <meta name="description" content="QUANTICORD NEXUS — Ethical Quantum Network powered by QCN Token."/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="portal">
+    <h1 class="title">⚛️ QUANTICORD NEXUS</h1>
+    <p class="subtitle">$QCN — ETHICAL QUANTUM NETWORK</p>
+    <button id="activate">ACTIVATE NEXUS</button>
+    <p id="status"></p>
+  </div>
+
+  <canvas id="bg"></canvas>
+
+  <footer>
+    <p>© 2025 R-M-P • QUANTICORD NEXUS • Manifest v3.0</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
