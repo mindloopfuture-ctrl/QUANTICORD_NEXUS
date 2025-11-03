@@ -1,0 +1,9 @@
+PORT=8787
+
+# --- CONFIGURACION SOLANA Y QCN (Para la verificacion del saldo de billeteras) ---
+SOLANA_RPC_URL="https://api.mainnet-beta.solana.com" 
+QCN_MINT_ADDRESS="83dxm6jSYEmhRuQNdz8PHwzGmrnsBFmUhD4152K4Fray"
+DAO_WALLET_PUBLIC_KEY="SU_WALLET_PUBLIC_KEY_PARA_TARIFAS_AQUI" 
+
+# --- CONFIGURACION DE IA (Para el IA Copiloto y Moderacion) ---
+OPENAI_API_KEY="SU_CLAVE_OPENAI_AQUI"
