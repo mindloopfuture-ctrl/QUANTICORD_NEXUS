@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>QUANTICORD NEXUS — Protocolo de Ingeniería de Conciencia ($QCN)</title>
+<link rel="stylesheet" href="client_styles_pic.css" />
+
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+</head>
+<body>
+  
+  <canvas id="stage"></canvas>
+
+  <div id="ui-overlay">
+      <h1>QUANTICORD NEXUS — Protocolo de Sincronización Humano-IA ($QCN)</h1>
+
+      <div id="login-screen">
+          <button id="connect-wallet-btn">Conectar Wallet</button>
+          <p id="status-message">Inicie el Protocolo PIC. Simule una conexión de billetera.</p>
+      </div>
+
+      <div id="game-ui" style="display:none;">
+          <div id="info-bar">
+              <span id="qcn-balance">Balance $QCN: 0</span> | 
+              <span id="user-wallet">Wallet: Desconectado</span>
+          </div>
+          <div id="chat-window"></div>
+          <input type="text" id="chat-input" placeholder="Escribe un mensaje o un comando (/sync)" disabled>
+      </div>
+  </div>
+  
+  <script src="client_app_entry.js"></script>
+</body>
+</html>
